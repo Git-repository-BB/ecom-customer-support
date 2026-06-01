@@ -1,0 +1,13 @@
+astra_db:
+  collection_name: "ecommercedata"
+
+embedding_model:
+  provider: "openai"
+  model_name: "text-embedding-3-small"
+
+retriever:
+  top_k: 10
+
+llm:
+  provider: "openai"
+  model_name: "gpt-5.4-nano-2026-03-17" 
